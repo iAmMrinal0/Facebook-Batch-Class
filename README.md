@@ -19,3 +19,6 @@ The above creates a request to post a comment 'hello' to the `id` you specify. T
 
 4. Read response using the unique id in `$request_key` to know if it is posted.  
 `$response=$batch->response($request_key);`
+
+### License
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT)
