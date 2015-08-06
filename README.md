@@ -3,6 +3,10 @@ A class in PHP for sending batch requests to Facebook for your Facebook app.
 
 Imagine having 30 requests to get the photos of a user or commenting on different posts where every request takes time and adds overhead to the API calls and the server. This class intends to reduce all that to 1 request.
 
+## Note
+
+This class was written for Facebook PHP SDK v2.0 and current version is 5.0 so this has not been tested. It will be updated if found not to be working.
+
 ### Usage  
 
 The basic assumption is you have a $facebook variable of the official Facebook class using the Facebook PHP SDK.  
